@@ -1,0 +1,30 @@
+<idea-plugin>
+  <id>com.hirovo.pomodoro</id>
+  <name>Pomodoro</name>
+  <version>1.0</version>
+  <vendor email="ytrewq123456789000@gmail.com">Hirovo</vendor>
+
+  <description><![CDATA[
+      pomodoro
+    ]]></description>
+
+  <change-notes>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+    <application-components>
+        <component>
+            <implementation-class>pomo.PomodoroComponent</implementation-class>
+        </component>
+    </application-components>
+
+
+
+</idea-plugin>
