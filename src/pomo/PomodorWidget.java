@@ -137,7 +137,7 @@ class  PomodorWidget implements CustomStatusBarWidget {
         }
     }
 
-    private void chengeMod(){
+    public void chengeMod(){
         switch (mode){
             case Run:{
                 mode = Mode.Stop;
